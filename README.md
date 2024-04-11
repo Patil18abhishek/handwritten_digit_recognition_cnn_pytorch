@@ -1,4 +1,4 @@
-# Handwritten Digit Recognition using Convolutional Neural Networks (CNN)
+# Handwritten Digit Recognition using Convolutional Neural Networks (CNN) - PyTorch
 This project aims to recognize handwritten digits using Convolutional Neural Networks (CNNs) implemented in PyTorch. The model is trained on the popular MNIST dataset, which consists of grayscale images of handwritten digits (0-9).
 
 # Overview
@@ -17,3 +17,5 @@ You can install the required Python packages using the following command:
 
 ```bash
 pip install -r requirements.txt
+
+
