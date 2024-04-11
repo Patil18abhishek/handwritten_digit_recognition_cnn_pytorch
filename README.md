@@ -25,12 +25,12 @@ The MNIST dataset used for training and testing the model is automatically downl
 ## Model Architecture
 The CNN model architecture used in this project is as follows:
 
-Convolutional Layer 1: 32 filters, kernel size 3x3, ReLU activation
-Max Pooling Layer: kernel size 2x2
-Convolutional Layer 2: 64 filters, kernel size 3x3, ReLU activation
-Max Pooling Layer: kernel size 2x2
-Fully Connected Layer 1: 64 * 7 * 7 input features, 128 output features, ReLU activation
-Fully Connected Layer 2: 128 input features, 10 output features (corresponding to digit classes)
+- Convolutional Layer 1: 32 filters, kernel size 3x3, ReLU activation
+- Max Pooling Layer: kernel size 2x2
+- Convolutional Layer 2: 64 filters, kernel size 3x3, ReLU activation
+- Max Pooling Layer: kernel size 2x2
+- Fully Connected Layer 1: 64 * 7 * 7 input features, 128 output features, ReLU activation
+- Fully Connected Layer 2: 128 input features, 10 output features (corresponding to digit classes)
 
 ## Training
 The model is trained for 10 epochs using the Adam optimizer with a learning rate of 0.001 and Cross-Entropy Loss as the loss function. During training, the script prints the loss for each epoch.
