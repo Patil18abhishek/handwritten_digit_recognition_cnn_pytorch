@@ -38,4 +38,6 @@ The model is trained for 10 epochs using the Adam optimizer with a learning rate
 ## Testing
 After training, the script evaluates the model's accuracy on the test set. The accuracy is calculated as the ratio of correctly predicted labels to the total number of labels.
 
+## Prediction
+You can use the predict.py script to make predictions on individual images. The predict_user_input function takes a trained model and the path to an image as input, and returns the predicted digit. Make sure to provide the path to the image you want to predict as image_path variable.
 
